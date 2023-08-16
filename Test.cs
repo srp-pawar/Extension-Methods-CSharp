@@ -14,11 +14,11 @@ namespace ExtensionMethods
             newProgram.test3();
             newProgram.test2();
             newProgram.test1();
-
+            // test1 of class NewProgram will be called since it is first given preference 
+            newProgram.test1();
             int i = 4;
             Console.WriteLine("Factorial of " + i + " " + i.factorial());
-
-
+            
         }
     }
 }
