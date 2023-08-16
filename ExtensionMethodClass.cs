@@ -24,5 +24,11 @@ namespace ExtensionMethods
             }
             return result;
         }
+
+        // test1 method is present in NewProgram class but preference would be given to class method
+        public static int test1(this NewProgram p)
+        {
+            return 1;
+        }
     }
 }
